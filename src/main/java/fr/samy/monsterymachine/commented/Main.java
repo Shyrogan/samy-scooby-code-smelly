@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         // ISSUE: It's unclear what kind of data should be processed
         // Different implementations might expect completely different types
+
+
         DataProcessor genericProcessor = new GenericDataProcessor();
         DataProcessor stringProcessor = new StringDataProcessor();
 
